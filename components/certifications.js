@@ -1,6 +1,6 @@
 const education = [
     {
-        period: "2023 — Present",
+        period: "2022 — 2026",
         qualification: "Bachelor of Science in Computer Science",
         institution: "Kenyatta University"
     }
@@ -8,7 +8,7 @@ const education = [
 
 const certifications = [
     {
-        year: "2026",
+        year: "2024",
         title: "Introduction To Generative AI",
         issuer: "Google",
         link: "https://www.skills.google/public_profiles/346d5df2-2838-4fae-b2b5-54651a5cdd16/badges/11201518?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
