@@ -1,0 +1,58 @@
+:root {
+
+    /* Colors */
+
+    --color-background: #efe5d7;
+    --color-surface: #f7f1e8;
+    --color-primary: #6f211f;
+    --color-primary-light: #8f3734;
+    --color-text: #23201c;
+    --color-text-muted: #6c645b;
+    --color-border: #c9b9a5;
+    --color-white: #ffffff;
+
+    /* Typography */
+
+    --font-heading: "Georgia", "Times New Roman", serif;
+    --font-body: Inter, Arial, Helvetica, sans-serif;
+
+    --font-size-xs: 0.875rem;
+    --font-size-sm: 1rem;
+    --font-size-md: 1.125rem;
+    --font-size-lg: 1.5rem;
+    --font-size-xl: 2.25rem;
+    --font-size-2xl: 3.5rem;
+    --font-size-3xl: 5rem;
+
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    --line-height-body: 1.7;
+    --line-height-heading: 1.05;
+
+    /* Layout */
+
+    --container-width: 1320px;
+    --section-spacing: 8rem;
+    --content-spacing: 2rem;
+    --border-radius: 999px;
+    --border-radius-card: 24px;
+    --border-width: 1px;
+
+    /* Navigation */
+
+    --navbar-height: 88px;
+
+    /* Effects */
+
+    --transition-fast: 180ms ease;
+    --transition-normal: 300ms ease;
+    --shadow-soft: 0 12px 40px rgba(0, 0, 0, 0.06);
+
+    /* Z-Index */
+
+    --z-navbar: 1000;
+    --z-overlay: 1100;
+}

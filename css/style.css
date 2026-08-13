@@ -1,0 +1,36 @@
+/* Global Base */
+
+body {
+    background: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    line-height: var(--line-height-body);
+}
+
+#site-header {
+    position: sticky;
+    top: 0;
+    z-index: var(--z-navbar);
+}
+
+main {
+    width: min(100% - 3rem, var(--container-width));
+    margin-inline: auto;
+}
+
+section {
+    min-height: 100vh;
+    scroll-margin-top: calc(var(--navbar-height) + 1rem);
+
+    opacity: 0;
+    transform: translateY(40px);
+
+    transition:
+        opacity .8s ease,
+        transform .8s ease;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

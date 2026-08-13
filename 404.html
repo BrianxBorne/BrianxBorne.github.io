@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#efe5d7">
+	<title>404 | Brian Mutune</title>
+
+	<link rel="icon" type="image/png" href="assets/icons/brianxborne.png">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/variables.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<style>
+		.not-found {
+			width: min(100% - 3rem, 680px);
+			min-height: 100vh;
+			margin-inline: auto;
+
+			display: grid;
+			place-content: center;
+
+			gap: 1rem;
+			text-align: center;
+		}
+
+		.not-found-logo {
+			width: 72px;
+			height: 72px;
+			margin-inline: auto;
+
+			object-fit: contain;
+			opacity: .45;
+			filter: grayscale(1);
+		}
+
+		.not-found h1 {
+			margin: 0;
+
+			font-family: var(--font-heading);
+			font-size: clamp(3rem, 10vw, 5rem);
+			line-height: 1;
+		}
+
+		.not-found p {
+			margin: 0;
+
+			color: var(--color-text-muted);
+			line-height: 1.8;
+		}
+
+		.not-found a {
+			justify-self: center;
+
+			padding: .85rem 1.25rem;
+
+			border: 1px solid var(--color-primary);
+			border-radius: var(--border-radius);
+
+			background: var(--color-primary);
+			color: var(--color-white);
+
+			font-weight: var(--font-weight-semibold);
+			transition: background var(--transition-fast), color var(--transition-fast);
+		}
+
+		.not-found a:hover {
+			background: transparent;
+			color: var(--color-primary);
+		}
+	</style>
+</head>
+
+<body>
+	<main class="not-found" aria-labelledby="not-found-title">
+		<img class="not-found-logo" src="assets/icons/brianxborne.png" alt="Brian Mutune logo">
+
+		<h1 id="not-found-title">404</h1>
+
+		<p>The page you requested could not be found.</p>
+
+		<a href="/">Back to Home</a>
+	</main>
+</body>
+</html>
