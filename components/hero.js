@@ -59,6 +59,16 @@ export function renderHero() {
                     </a>
 
                     <a
+                        href="https://docs.google.com/document/d/18M4on7thbzxYuCXUKgrEn34iGECKTGu388wHd5CzkuM/export?format=pdf"
+                        class="hero__button hero__button--secondary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        download
+                    >
+                        Download CV
+                    </a>
+
+                    <a
                         href="#contact"
                         class="hero__button hero__button--secondary"
                     >
